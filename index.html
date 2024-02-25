@@ -19,14 +19,13 @@
             color: #093044;
         }
 
-        .video-container {
+        .img-container {
             overflow: hidden;
             border-radius: 15px;
             color: #093044;
-            margin-bottom: 20px; /* Adicione margem inferior para separar os vídeos */
         }
 
-        .video-container iframe {
+        .img-container img {
             width: 100%;
             height: auto;
             display: block;
@@ -38,20 +37,50 @@
     
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-4">
-                <div class="video-container wow bounceIn">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VTicI8LGyaU" frameborder="0" allowfullscreen></iframe>
-                </div>
+            <div class="col-md-12 wow bounceIn text-center img-container">
+                <img src="assets/img/home-bg.png" class="img-fluid img-rounded" alt="home img">
             </div>
-            <div class="col-md-4">
-                <div class="video-container wow bounceIn">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rsb76aWw8wM" frameborder="0" allowfullscreen></iframe>
-                </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 wow bounceIn text-center img-container">
+                <img src="assets/img/nutri-equipe.png" class="img-fluid img-rounded" alt="feature img">
             </div>
-            <div class="col-md-4">
-                <div class="video-container wow bounceIn">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cWof-O3Lk8Y" frameborder="0" allowfullscreen></iframe>
-                </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 wow bounceIn text-center img-container">
+                <img src="assets/img/desktopp.jpeg" class="img-fluid img-rounded" alt="feature img">
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 wow bounceIn text-center img-container">
+                <video controls class="img-fluid img-rounded">
+                    <source src="https://youtu.be/dHPPfvE0ZB4?si=c5St3AULidmVp2pT" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 wow bounceIn text-center img-container">
+                <img src="assets/img/racao.png" class="img-fluid img-rounded" alt="feature img">
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 wow bounceIn text-center img-container">
+                <img src="assets/img/footer.png" class="img-fluid img-rounded" alt="feature img">
             </div>
         </div>
     </div>
@@ -77,20 +106,21 @@
         })
     </script>
     
+    <!-- Vídeos abaixo do rodapé -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
-                <div class="video-container wow bounceIn">
+                <div class="text-center">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/VTicI8LGyaU" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="video-container wow bounceIn">
+                <div class="text-center">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/rsb76aWw8wM" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="video-container wow bounceIn">
+                <div class="text-center">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/cWof-O3Lk8Y" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
