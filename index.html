@@ -19,35 +19,30 @@
             color: #093044;
         }
 
-        /* Estilos para a imagem de fundo */
         .img-container {
             overflow: hidden;
-            position: relative;
-            width: 100%;
-            height: 100vh; /* Tornando a altura igual à altura da tela */
-            margin: 0;
-            padding: 0;
+            border-radius: 15px;
+            color: #093044;
         }
 
         .img-container img {
             width: 100%;
             height: auto;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            display: block;
         }
     </style>
 </head>
 <body>
     <div class="preloader"></div>
     
-    <!-- Seção da imagem de fundo -->
-    <div class="img-container">
-        <img src="assets/img/home-bg.png" class="img-fluid img-rounded" alt="home img">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 wow bounceIn text-center img-container">
+                <img src="assets/img/home-bg.png" class="img-fluid img-rounded" alt="home img">
+            </div>
+        </div>
     </div>
     
-    <!-- Restante do seu conteúdo HTML -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 wow bounceIn text-center img-container">
@@ -56,7 +51,7 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+	<div class="container-fluid">
         <div class="row">
             <div class="col-md-12 wow bounceIn text-center img-container">
                 <img src="assets/img/clientes.png" class="img-fluid img-rounded" alt="feature img">
@@ -82,7 +77,6 @@
                 </div>
             </div>
         </div>
-    </div>
     
     <div class="container-fluid">
         <div class="row">
@@ -120,5 +114,7 @@
             });
         })
     </script>
+    
+    </div>
 </body>
 </html>
